@@ -1,1 +1,16 @@
-hi
+.animated-gradient {
+  animation: animateBg 1s linear infinite;
+  background-image: linear-gradient(0deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00);
+  background-size: 100% 700%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 100%; }
+  100% { background-position: 0% 0%; }
+
+#pushkar {
+color: #FFFFFF;
+background: #333333;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+color: #FFFFFF;
+background: #333333;
+}
