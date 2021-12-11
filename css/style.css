@@ -56,7 +56,8 @@ body {
 }
 
 p1 {
-  font-weight: 400;
+  font-weight: 100;
+  font-size: 128px;
   text-align: center;
   text-transform: uppercase;
 }
