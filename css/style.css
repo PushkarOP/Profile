@@ -13,6 +13,7 @@ body {
   height: 100%;
   font: normal 14px/1.618em "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  transition: background-color .5s;
 }
 
 body:before {
